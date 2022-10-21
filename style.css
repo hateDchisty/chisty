@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+    
+}
+h3{
+    font-sie:30px
+}
+p{
+    color: gray;
+}
+.highlights{
+    color: aqua;
+}
+section{
+    height: 780px;
+}
+
+.half-width{
+    float: left;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding-left: 2%;
+   
+}
+.image{
+    width: 400px;
+    height: 400px;
+    border-radius: 30%;
+    border: 7px solid;
+    border-image: linear-gradient(blue,aqua);
+    border-image-slice: 1 ;
+}
+#img1{
+    margin-left: 160px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+.link1{
+    background-image: linear-gradient(45deg,blue, aqua);
+    width: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.link2{
+    background-image: linear-gradient(30deg,pink, rgb(182, 29, 161));
+    width: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.fp{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.education-re{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+
+}
+.education-re h2{
+    margin-left: 64px;
+    
+}
+#h{
+    border-bottom: 5px solid black;
+}
+.education{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.first{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 350px;
+}
+#ssc{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,aqua);
+    border-image-slice: 1 ;
+
+}
+#hsc{
+    border-left: 7px solid;
+    border-image: linear-gradient(pink, lightsalmon);
+    border-image-slice: 1 ;
+}
+#bsc{
+    border-left: 7px solid;
+    border-image: linear-gradient(springgreen, turquoise);
+    border-image-slice: 1 ;
+}
+.highlights1{
+    color: springgreen;
+    font-weight: bold;
+}
